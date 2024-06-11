@@ -1401,7 +1401,7 @@ class HomeKitCard extends LitElement {
             stroke-dasharray: calc((251.2 / 100) * var(--percentage)), 251.2;
             position: absolute;
             margin: 0;
-            top: 10px;
+            top: 1000px;
             right: 10px;
             width: 40px;
             height: 40px;
