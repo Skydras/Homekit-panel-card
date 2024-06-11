@@ -24048,7 +24048,8 @@ class HomeKitCard extends LitElement {
         return html `
       <svg class="circle-state" viewbox="0 0 100 100" style="${stateObj.attributes.brightness && !ent.state ? '--percentage:' + (stateObj.attributes.brightness / 2.55)
             : ''}">
-        <path id="progress" stroke-width="3" stroke="#aaabad" fill="none"
+//        <path id="progress" stroke-width="3" stroke="#aaabad" fill="none"
+	<path id="progress" stroke-width="3" stroke="#" fill="none"
               d="M50 10
                 a 40 40 0 0 1 0 80
                 a 40 40 0 0 1 0 -80">
