@@ -24053,7 +24053,7 @@ class HomeKitCard extends LitElement {
                 a 40 40 0 0 1 0 80
                 a 40 40 0 0 1 0 -80">
         </path>
-        <text id="count" x="50" y="50" fill="#7d7e80" text-anchor="middle" dy="7" font-size="20">${this._renderStateValue(ent, stateObj, type)}</text>
+        <text id="count" x="50" y="50" fill="#7d7e80" text-anchor="middle" dy="7" font-size="22">${this._renderStateValue(ent, stateObj, type)}</text>
       </svg>
     `;
     }
