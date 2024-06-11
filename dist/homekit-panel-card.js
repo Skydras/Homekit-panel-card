@@ -24789,7 +24789,7 @@ class HomeKitCard extends LitElement {
             margin: 5px 3px;
             position: relative;
             overflow: hidden;
-            font-weight: 300;
+            font-weight: 3000;
             touch-action: auto !important;
         }
         
